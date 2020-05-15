@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background-color: #222;
+}
+li{
+    color: #084f8a;
+}
+a{
+    color: #008cff;
+    text-decoration: none;
+}
+a:hover{
+    color: #008cff70;
+    text-decoration: none;
+}
+a:active{
+    color: #008cffbd;
+    text-decoration: none;
+}
+div{
+    background-color: transparent;
+    color: wheat;
+    padding: 10px 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 20px #00000085, -5px -5px 10px #3b3b3b71;
+}
